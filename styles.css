@@ -1,10 +1,16 @@
 .container {
     background-color: #fef9ef;
-    border-radius: 6px;
-    padding: 24px 15px;
+    padding: 32px;
+    margin: auto;
     text-align: center;
-    
-    /* width: 600px; */
+    border-radius: 10px 100px / 120px;
+    border: solid;
+
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .container-text {
