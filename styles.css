@@ -1,0 +1,12 @@
+.container {
+    background-color: #fef9ef;
+    border-radius: 6px;
+    padding: 24px 15px;
+    text-align: center;
+    
+    /* width: 600px; */
+}
+
+.container-text {
+    font-size: x-large;
+}
