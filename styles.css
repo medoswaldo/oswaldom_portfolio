@@ -4,11 +4,12 @@
     padding: 32px;
     text-align: center;
     border: solid;
-    width: 800px;
+    width: 1100px;
 }
 
 .title-con {
     border-radius: 0px 100px / 120px;
+    font-family:'Courier New', Courier, monospace;
     font-size: x-large;
 
     position: absolute;
@@ -18,15 +19,30 @@
 }
 
 .main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-family: 'Courier New', Courier, monospace;
+
     border-radius: 15px;
     position: absolute;
-    top: 55%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    font-size: x-large;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 
 
-.grp-list a {
+a {
     text-decoration: none;
 }
 
