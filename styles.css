@@ -59,3 +59,40 @@
 a {
     text-decoration: none;
 }
+
+.goals-nav {
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 10pt;
+}
+
+#some {
+    text-align: center;
+    font-size: xxx-large;
+    padding: 15px;
+}
+
+.title-goal {
+    margin: auto;
+    width: 500pt;
+    padding: 10px;
+    /* margin: 10p; */
+    border: solid;
+    border-radius: 15pt;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-goal h2 {
+    font-size: xx-large;
+    padding: ;
+} 
+
+.title-goal, .text-go {
+    font-size: 20px;
+}
+
