@@ -36,16 +36,25 @@ function prevFunction() {
     } else {
         indexG--;
     }
-    var contentTitle = document.querySelector('#title-goal');
-    // var contentText = document.querySelector('.container .inside-goal .text-goal');
+    var contentTitle = document.querySelector('.container .inside-goal .title-goal');
+    var contentText = document.querySelector('.container .inside-goal .text-goal');
 
-    counterTitle.innerHTML = contentsGoal[indexG].title;
-    // contentText.innerHTML = contentsGoal[indexG].text;
+    contentTitle.innerHTML = contentsGoal[indexG].title;
+    contentText.innerHTML = contentsGoal[indexG].text;
 }
 
 
 
-// function nextFunction() {
+function nextFunction() {
+    if (indexG == contentsGoal.length - 1) {
+        indexG = 0;
+    } else {
+        indexG++;
+    }
 
-//     document.querySelector('.container .inside-goal .text-goal').innerHTML = ;
-// }
+    var contentTitle = document.querySelector('.container .inside-goal .title-goal');
+    var contentText = document.querySelector('.container .inside-goal .text-goal');
+
+    contentTitle.innerHTML = contentsGoal[indexG].title;
+    contentText.innerHTML = contentsGoal[indexG].text;
+}
